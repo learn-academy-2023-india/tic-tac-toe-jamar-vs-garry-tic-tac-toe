@@ -1,5 +1,20 @@
 .square {
   border: 2px solid black;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 610px;
+  margin: 0 auto;
+}
+
+table {
+  background-color:rgb(3, 3, 3);
+  border-style: double;
+  font-size: 80px;
+  position: relative;
+  left: 450px;
 }
