@@ -1,13 +1,3 @@
-import React from 'react'
-import Game from './components/Game'
-import './App.css'
-
-const App = () => {
-  return (
-    <div className="app">
-      <h1>Tic Tac Toe</h1>
-      <Game />
-
 import React, { useState } from 'react'
 import Board from './components/Board'
 import './App.css'
