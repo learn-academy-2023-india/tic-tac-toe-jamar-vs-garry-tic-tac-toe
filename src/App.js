@@ -1,15 +1,13 @@
-import React, { useState } from 'react'
-import Square from './components/Square'
+import React from 'react'
+import Game from './components/Game'
 import './App.css'
 
 const App = () => {
-  const [squares, setSquares] = useState(Array(9).fill(null))
-
   return (
-    <>
+    <div className="app">
       <h1>Tic Tac Toe</h1>
-      <Square />
-    </>
+      <Game />
+    </div>
   )
 }
 
