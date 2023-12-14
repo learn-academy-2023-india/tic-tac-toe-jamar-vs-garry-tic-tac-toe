@@ -1,5 +1,7 @@
-import React from 'react'
-import Square from './Square'
+// Board.js
+
+import React from 'react';
+import Square from './Square';
 
 const Board = ({ squares, onClick }) => {
   return (
@@ -8,7 +10,7 @@ const Board = ({ squares, onClick }) => {
         <Square key={index} value={square} onClick={() => onClick(index)} />
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default Board
+export default Board;
